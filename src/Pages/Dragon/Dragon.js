@@ -16,13 +16,13 @@ const Dragon = () => {
         </div>
         <div className="bg-black">
             <div className="max-w-[960px] my-0 mx-auto flex flex-row justify-between align-middle text-center uppercase text-white">
-                <Counter target="3" title="counterLaunches">
+                <Counter target="38" title="counterLaunches">
                     Total Launches
                 </Counter>
-                <Counter target="7" title="counterLandings">
+                <Counter target="33" title="counterLandings">
                     Total Landings
                 </Counter>
-                <Counter target="4" title="counterReflights">
+                <Counter target="16" title="counterReflights">
                     Total Reflights
                 </Counter>
                 

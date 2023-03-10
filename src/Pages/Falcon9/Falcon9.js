@@ -17,13 +17,13 @@ const Falcon9 = () => {
     </div>
     <div className="bg-black">
         <div className="max-w-[960px] my-0 mx-auto flex flex-row justify-between align-middle text-center uppercase text-white">
-            <Counter target="3" title="counterLaunches">
+            <Counter target="207" title="counterLaunches">
                 Total Launches
             </Counter>
-            <Counter target="7" title="counterLandings">
+            <Counter target="165" title="counterLandings">
                 Total Landings
             </Counter>
-            <Counter target="4" title="counterReflights">
+            <Counter target="142" title="counterReflights">
                 Total Reflights
             </Counter>
             

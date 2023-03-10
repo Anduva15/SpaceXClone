@@ -35,7 +35,7 @@ const NavLink = props => {
                 <NavLink link="/">Rideshare</NavLink>
                 <NavLink link="/">Starshield</NavLink>
                 <NavLink link="/">Starlink</NavLink>
-                <NavLink link="/Shop">Starlink</NavLink>
+                <NavLink link="/Shop">Shop</NavLink>
                 </ul>
             </nav>
            
