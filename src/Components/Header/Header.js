@@ -27,9 +27,9 @@ const NavLink = props => {
            
             <nav className=''>
                 <ul className='flex  mt-2'>
-                <NavLink link="/Falcon">Falcon 9</NavLink>
-                <NavLink link="/FalconHeavy">Falcon Heavy</NavLink>
-                <NavLink link="/Dragon">Dragon</NavLink>
+                <NavLink link="/Falcon/">Falcon 9</NavLink>
+                <NavLink link="/FalconHeavy/">Falcon Heavy</NavLink>
+                <NavLink link="/Dragon/">Dragon</NavLink>
                 <NavLink link="/">Starship</NavLink>
                 <NavLink link="/">Human SpaceFlight</NavLink>
                 <NavLink link="/">Rideshare</NavLink>
