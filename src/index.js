@@ -8,9 +8,9 @@ import FalconHeavy from './Pages/FalconHeavy/FalconHeavy';
 import Dragon from './Pages/Dragon/Dragon';
 const router = createBrowserRouter([
   {path: "/", element: <App/>},
-  {path: "falcon.html", element: <Falcon9/>},
-  {path: "falconheavy.html", element: <FalconHeavy/>},
-  {path: "dragon.html", element: <Dragon/>}
+  {path: "/falcon", element: <Falcon9/>},
+  {path: "/falconheavy", element: <FalconHeavy/>},
+  {path: "/dragon", element: <Dragon/>}
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
