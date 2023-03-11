@@ -22,7 +22,6 @@ function App() {
     </div>
     <RecentLaunch/>
     <RecentMission/>
-    <RecentLaunch/>
     <RecentLaunchMission/>
     <Update/>
     <StarshipLand/>

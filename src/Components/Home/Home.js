@@ -2,7 +2,7 @@
 const Home = props => {
     return (
         <section className=" relative h-screen">
-            <div className="absolute bottom-[200px] left-[150px] text-white max-w-[560px]">
+            <div className="absolute bottom-[100px] sm:bottom-[200px] left-[50px] sm:left-[150px] text-white max-w-[560px]">
                 <h4 className="animate-fadeInUp1 text-xl mb-1 font-light">Upcoming Mission</h4>
                 <h2 className="animate-fadeInUp2 animate-animateFill text-3xl font-bold mb-5">CRS-25 Mission</h2>
                 <a href='/' className="animate-fadeInUp3 animate-animateFill relative inline-block cursor-pointer text-center min-w-[130px] py-4 px-12 mt-3 border-2 border-white  overflow-hidden z-1 after:content-['Rewatch'] after:z-0 after:absolute after:bottom-0 after:left-0 after:w-full after:h-full after:bg-white after:scale-y-0 after:transition-transform hover:after:origin-bottom  hover:after:scale-y-100 hover:after:text-black hover:after:py-4 hover:after:px-12 hover:after:font-bold  ">
