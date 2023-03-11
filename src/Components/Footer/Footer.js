@@ -7,7 +7,7 @@ const Footer = () => {
 
    return <footer className="relative py-14 uppercase text-sm bg-black lg:flex justify-center">
     <div className="w-full text-center lg:w-fit lg:mr-8">
-        <a className=" text-[#aaa] text-center ">SpaceX 2023</a>
+        <a href="/" className=" text-[#aaa] text-center ">SpaceX 2023</a>
     </div>
         <ul className="flex justify-center align-middle flex-wrap">
         
