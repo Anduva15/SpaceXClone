@@ -10,7 +10,7 @@ const ButtonSidebar = () => {
     const [SidebarIsActive, setSidebarIsActive] = useState(false);
 
     const LinkSidebar = props => {
-        return <li className="relative text-white border-b border-white text-right py-4 hover:text-[#808080] font-mono">
+        return <li className="relative text-white border-b border-white text-right py-2 xl:py-4 hover:text-[#808080] font-mono">
             <a href={props.link} className=" w-full  mr-10 ">
                         {props.children}
             </a>    
@@ -21,6 +21,15 @@ const ButtonSidebar = () => {
         return(
         <div className={SidebarIsActive ? "sidebarShow" : "sidebarHidden"} >
         <nav className="flex flex-col mt-24">
+        <ul className="xl:hidden">
+                <LinkSidebar link="/Falcon9/" >Falcon 9</LinkSidebar> 
+                <LinkSidebar link="/Falconheavy/">Falcon Heavy</LinkSidebar> 
+                <LinkSidebar link="/Dragon/">Dragon</LinkSidebar>
+                <LinkSidebar link="">Starship</LinkSidebar>  
+                <LinkSidebar link="/">Rideshare</LinkSidebar> 
+                <LinkSidebar link="/">Starshield</LinkSidebar> 
+                <LinkSidebar link="/">Starlink</LinkSidebar> 
+            </ul>
             <ul>
                 <LinkSidebar link="Mission.html" >Mission</LinkSidebar> 
                 <LinkSidebar link="Lanches.html">Launches</LinkSidebar> 
@@ -28,6 +37,7 @@ const ButtonSidebar = () => {
                 <LinkSidebar link="Updates.html">Updates</LinkSidebar>  
                 <LinkSidebar link="Shop.html">Shop</LinkSidebar> 
             </ul>
+          
         </nav>
     </div>
     )
