@@ -17,15 +17,16 @@ const NavLink = props => {
 
     return (
         <>
-        <header className="font-familjen text-white position fixed t-0 l-0 z-[2] xl:flex uppercase h-[100px] ml-[4rem]  pt-16 align-center hidden">
+         
+        <header className="font-familjen text-white position fixed t-0 l-0 z-[2] xl:flex uppercase h-[100px] ml-[2rem] lg:ml[4rem]  pt-16 align-center ">
             
-            <div>
+            <div className='' >
                 <a className='h-auto' href="./" >
                     <img className='h-auto w-[226px] block' src={Logo} alt=""/>
                 </a>
             </div>
            
-            <nav className=''>
+            <nav className='hidden xl:inline-block'>
                 <ul className='flex  mt-2 justify-center'>
                 <NavLink link="/Falcon/">Falcon 9</NavLink>
                 <NavLink link="/FalconHeavy/">Falcon Heavy</NavLink>
